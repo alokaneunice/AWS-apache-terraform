@@ -12,9 +12,6 @@ resource "aws_instance" "apache-server" {
   user_data              = file("apache.sh")
 
 
-
-
-
   tags = {
     Name = "apache_server1"
   }
